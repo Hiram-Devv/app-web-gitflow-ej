@@ -3,6 +3,8 @@ document.getElementById('btnClick').addEventListener('click', function() {
 });
 
 //Este es un metodo
+
+// Mi nombre es Hiram
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
     var name = document.getElementById('name').value;
